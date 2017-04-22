@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="@drawable/day"
+    android:orientation="vertical"
+    android:layout_width="@dimen/calendar_item_size"
+    android:layout_height="@dimen/calendar_item_size">
+
+    <TextView
+        android:textColor="@color/light_grey_3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/middle_text_size"
+        android:id="@+id/dayNum"
+        android:textAlignment="center"
+        android:layout_width="@dimen/calendar_item_size"
+        android:layout_height="@dimen/calendar_item_size" />
+
+</LinearLayout>

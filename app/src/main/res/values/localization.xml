@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tasks">TASKS</string>
+    <string name="date">DATE</string>
+    <string name="priority">PRIORITY</string>
+    <string name="List">List</string>
+    <string name="Settings">Settings</string>
+    <string name="notification_with_sound">Notification with sound</string>
+    <string name="report_a_bug_or_a_suggestion">Report a bug or a suggestion</string>
+    <string name="done">DONE</string>
+    <string name="select_contacts">SELECT CONTACTS</string>
+    <string name="new_task">New task</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="repeat">Repeat</string>
+    <string name="once">once</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="weekends">Weekends</string>
+    <string name="general">GENERAL</string>
+    <string name="job">JOB</string>
+    <string name="personal">PERSONAL</string>
+    <string name="prior">Priority</string>
+    <string name="notification">Notification</string>
+    <string name="alert">Alert</string>
+    <string name="before">Before</string>
+    <string name="min_0">0 min</string>
+    <string name="min_5">5 min</string>
+    <string name="min_15">15 min</string>
+    <string name="location"> Location</string>
+    <string name="time">TIME</string>
+    <string name="write_text_here">Write text here</string>
+    <string name="no_location"> no location</string>
+    <string name="create_your_first_task">Create your first task</string>
+    <string name="press_red_button_in_the_right_botton_corner_to_create_your_first_task">"Press red button in the right bottom corner to create your first task"</string>
+    <string name="you_have">You have </string>
+    <string name="task">task</string>
+    <string name="ts">tasks</string>
+    <string name="today">today</string>
+    <string name="for_">for </string>
+    <string name="th_of">th of </string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="days">DAYS</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="choose_sharing_method">Choose sharing method</string>
+    <string name="months">MONTHS</string>
+    <string name="type_task_text">Type task text</string>
+    <string name="google_places_are_not_available">Google Places are not available</string>
+    <string name="general_task">General task</string>
+    <string name="job_task">Job task</string>
+    <string name="personal_task">Personal task</string>
+    <string name="with"> with</string>
+    <string name="general_task_">General task:</string>
+    <string name="job_task_">Job task:</string>
+    <string name="personal_task_">Personal task:</string>
+    <string name="Task">Task</string>
+    <string name="every_weekday">EVERY WEEKDAY </string>
+    <string name="every_weekend">EVERY WEEKEND </string>
+    <string name="no_notes">No notes</string>
+    <string name="weeks">WEEKS</string>
+    <string name="tasks_text">Task\'s text</string>
+    <string name="_notes">+ notes</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="read_storage">Please, allow this app read the storage</string>
+
+
+    <string name="jan">Jan</string>
+    <string name="feb">Feb</string>
+    <string name="mar">Mar</string>
+    <string name="apr">Apr</string>
+    <string name="may">May</string>
+    <string name="jun">Jun</string>
+    <string name="jul">Jul</string>
+    <string name="aug">Aug</string>
+    <string name="sep">Sep</string>
+    <string name="oct">Oct</string>
+    <string name="nov">Nov</string>
+    <string name="dec">Dec</string>
+
+</resources>

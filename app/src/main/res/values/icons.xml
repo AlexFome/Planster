@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="twitter">&#xf099;</string>
+    <string name="facebook" translatable="false">&#xf09a;</string>
+    <string name="heart" translatable="false">&#xf004;</string>
+    <string name="remove" translatable="false">&#xf00d;</string>
+    <string name="settings">&#xf0c9;</string>
+    <string name="email" translatable="false">&#xf0e0;</string>
+    <string name="okay">&#xf00c;</string>
+    <string name="edit">&#xf044;</string>
+    <string name="cross">&#xf00d;</string>
+    <string name="share" translatable="false">&#xf1e0;</string>
+
+    <string name="user" translatable="false">&#xf007;</string>
+    <string name="users" translatable="false">&#xf0c0;</string>
+    <string name="plus_user" translatable="false">&#xf234;</string>
+    <string name="minus_user" translatable="false">&#xf235;</string>
+    <string name="hashtag" translatable="false">&#xf292;</string>
+    <string name="marker" translatable="false">&#xf041;</string>
+    <string name="list">&#xf0ca;</string>
+    
+    <string name="sun" translatable="false">&#xf185;</string>
+    <string name="moon" translatable="false">&#xf186;</string>
+    <string name="long_arrow_right" translatable="false">&#xf178;</string>
+    <string name="arrow_right" translatable="false">&#xf054;</string>
+    <string name="arrow_left" translatable="false">&#xf053;</string>
+    <string name="calendar" translatable="false">&#xf073;</string>
+
+</resources>

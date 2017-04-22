@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_layout_parent"
+    android:background="@drawable/task"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/task_vertical_padding"
+        android:paddingLeft="@dimen/task_horizontal_padding"
+        android:paddingRight="@dimen/task_horizontal_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/task_date"
+            android:textSize="@dimen/big_text_size"
+            android:text="13:00"
+            android:textColor="@color/light_grey_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/task_type"
+            android:textSize="@dimen/small_text_size"
+            android:text="@string/general"
+            android:textColor="@color/light_grey_2"
+            android:layout_gravity="end"
+            android:textAlignment="viewEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/task_text"
+        android:textSize="@dimen/big_text_size"
+        android:paddingTop="@dimen/task_vertical_padding"
+        android:paddingLeft="@dimen/task_horizontal_padding"
+        android:paddingRight="@dimen/task_horizontal_padding"
+        android:text="Meet Jimmy at the Store"
+        android:textColor="@color/light_grey_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/task_notes"
+        android:paddingTop="@dimen/task_vertical_padding"
+        android:paddingLeft="@dimen/task_horizontal_padding"
+        android:paddingRight="@dimen/task_horizontal_padding"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textColor="@color/light_grey_2"
+            android:textSize="@dimen/small_text_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/task_vertical_padding"
+        android:paddingLeft="@dimen/task_horizontal_padding"
+        android:paddingRight="@dimen/task_horizontal_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/contacts"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+        <ImageView
+            android:layout_marginLeft="@dimen/contact_thumbnail_margin"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+        <ImageView
+            android:layout_marginLeft="@dimen/contact_thumbnail_margin"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+        <LinearLayout
+            android:background="@drawable/thumbnail"
+            android:layout_marginLeft="@dimen/contact_thumbnail_margin"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size">
+            <TextView
+                android:text="+1"
+                android:textSize="@dimen/big_text_size"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/places"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/location_bar_height">
+
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="@dimen/very_big_text_size"
+                    android:text="@string/marker"
+                    android:textColor="@color/light_grey_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/location_text"
+                    android:text="@string/no_location"
+                    android:textSize="@dimen/middle_text_size"
+                    android:textColor="@color/light_grey_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/extra_bar"
+        android:paddingTop="@dimen/task_vertical_padding"
+        android:paddingLeft="@dimen/task_horizontal_padding"
+        android:paddingRight="@dimen/task_horizontal_padding"
+        android:paddingBottom="@dimen/task_vertical_padding"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/alarm_off"
+            android:background="@drawable/white_empty_circle"
+            android:textSize="@dimen/big_text_size"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/okay"
+            android:padding="@dimen/calendar_verical_padding"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+        <TextView
+            android:id="@+id/open_task_list"
+            android:background="@drawable/empty_circle"
+            android:textSize="@dimen/big_text_size"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:text="@string/list"
+            android:padding="@dimen/calendar_verical_padding"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+        <TextView
+            android:id="@+id/edit_task"
+            android:background="@drawable/empty_circle"
+            android:textSize="@dimen/big_text_size"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:text="@string/edit"
+            android:layout_marginLeft="@dimen/calendar_verical_padding"
+            android:padding="@dimen/calendar_verical_padding"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+        <TextView
+            android:id="@+id/remove_task"
+            android:background="@drawable/empty_circle"
+            android:textSize="@dimen/big_text_size"
+            android:textColor="@color/red"
+            android:text="@string/cross"
+            android:layout_marginLeft="@dimen/calendar_verical_padding"
+            android:textAlignment="center"
+            android:padding="@dimen/calendar_verical_padding"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

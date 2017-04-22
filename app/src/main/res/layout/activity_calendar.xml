@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calendar_activity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/light_grey_1"
+    tools:context="com.fome.planster.CalendarActivity">
+
+    <LinearLayout
+        android:paddingTop="@dimen/vertical_padding"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:id="@+id/month_sign"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Mar"
+            android:textColor="@color/light_grey_2"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/big_text_size"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="April"
+            android:textColor="@color/light_grey_3"
+            android:textSize="@dimen/capital_text_size"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="May"
+            android:textColor="@color/light_grey_2"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/big_text_size"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <GridView
+        android:paddingTop="@dimen/vertical_padding"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:id="@+id/calendar"
+        android:numColumns="5"
+        android:columnWidth="@dimen/calendar_item_size"
+        android:listSelector="@android:color/transparent"
+        android:stretchMode="spacingWidth"
+        android:verticalSpacing="@dimen/calendar_vertical_spacing"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

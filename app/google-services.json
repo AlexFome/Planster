@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "REPLACE THIS FILE WITH YOUR JSON",
+    "firebase_url": "REPLACE THIS FILE WITH YOUR JSON",
+    "project_id": "REPLACE THIS FILE WITH YOUR JSON",
+    "storage_bucket": "REPLACE THIS FILE WITH YOUR JSON"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "REPLACE THIS FILE WITH YOUR JSON",
+        "android_client_info": {
+          "package_name": "com.fome.planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "REPLACE THIS FILE WITH YOUR JSON",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "REPLACE THIS FILE WITH YOUR JSON"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "REPLACE THIS FILE WITH YOUR JSON",
+        "android_client_info": {
+          "package_name": "com.fome.planster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "REPLACE THIS FILE WITH YOUR JSON",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "REPLACE THIS FILE WITH YOUR JSON"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

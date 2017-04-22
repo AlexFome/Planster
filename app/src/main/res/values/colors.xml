@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey_1">#fafafa</color>
+    <color name="light_grey_2">#9092a5</color>
+    <color name="light_grey_3">#212124</color>
+    <color name="main">#F76C5E</color>
+
+    <color name="purple">#9B59B6</color>
+    <color name="blue">#59ABE3</color>
+    <color name="green">#26A65B</color>
+    <color name="yellow">#F5D76E</color>
+    <color name="orange">#F2784B</color>
+    <color name="grey">#6C7A89</color>
+
+    <color name="red">#F76C5E</color>
+    <color name="red_1">#C05C77</color>
+    <color name="red_2">#874153</color>
+    <color name="red_3">#4D2530</color>
+    <color name="blue_1">#4183D7</color>
+    <color name="blue_2">#336E7B</color>
+    <color name="blue_3">#6BB9F0</color>
+    <color name="green_1">#68C3A3</color>
+    <color name="green_2">#2ECC71</color>
+    <color name="green_3">#1E824C</color>
+    <color name="yellow_1">#F7CA18</color>
+    <color name="yellow_2">#F4D03F</color>
+    <color name="yellow_3">#F5D76E</color>
+    <color name="purple_1">#674172</color>
+    <color name="purple_2">#8E44AD</color>
+    <color name="purple_3">#913D88</color>
+    <color name="orange_1">#F27935</color>
+    <color name="orange_2">#E67E22</color>
+    <color name="orange_3">#EB9532</color>
+    <color name="grey_1">#95A5A6</color>
+    <color name="grey_2">#ABB7B7</color>
+    <color name="grey_3">#BDC3C7</color>
+
+    <color name="general_type_color">@color/red_1</color>
+    <color name="job_type_color">@color/orange_2</color>
+    <color name="personal_type_color">@color/blue</color>
+
+    <color name="background_1">#f4f4f4</color>
+    <color name="background_2">#FFFFFF</color>
+
+    <array name="dataColors">
+
+        <item>@color/red</item>
+        <item>@color/red_1</item>
+        <item>@color/red_2</item>
+        <item>@color/red_3</item>
+        <item>@color/blue</item>
+        <item>@color/blue_1</item>
+        <item>@color/blue_2</item>
+        <item>@color/blue_3</item>
+        <item>@color/green</item>
+        <item>@color/green_1</item>
+        <item>@color/green_2</item>
+        <item>@color/green_3</item>
+        <item>@color/yellow</item>
+        <item>@color/yellow_1</item>
+        <item>@color/yellow_2</item>
+        <item>@color/yellow_3</item>
+        <item>@color/purple</item>
+        <item>@color/purple_1</item>
+        <item>@color/purple_2</item>
+        <item>@color/purple_3</item>
+        <item>@color/orange</item>
+        <item>@color/orange_1</item>
+        <item>@color/orange_2</item>
+        <item>@color/orange_3</item>
+        <item>@color/grey</item>
+        <item>@color/grey_1</item>
+        <item>@color/grey_2</item>
+        <item>@color/grey_3</item>
+
+    </array>
+</resources>

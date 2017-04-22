@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/contact_wrapper"
+            android:background="@drawable/contact_wrapper"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size"/>
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/contact_thumbnail"
+            android:layout_width="@dimen/contact_thumbnail_size"
+            android:layout_height="@dimen/contact_thumbnail_size" />
+
+        <TextView
+            android:textColor="@color/red"
+            android:text="@string/okay"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/very_big_text_size"
+            android:textAlignment="center"
+            android:id="@+id/contact_check"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/contact_name"
+        android:text="John McBobs"
+        android:textColor="@color/light_grey_2"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    
+</LinearLayout>

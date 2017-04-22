@@ -1,0 +1,19 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 156 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 12645375 0 0
+ciMethod java/util/ArrayList <init> ()V 121 1 1107132 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 641 1 4074450 0 -1
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2417 1 1467033 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 2001 1 250 0 0
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 12645376 orig 264 104 225 199 80 0 0 0 0 128 4 145 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 144 7 6 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/BitSet get (I)Z 1609 1 7678 0 -1
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2393 1 1471911 0 96
+ciMethod java/util/ArrayList$Itr hasNext ()Z 3073 1 4454935 0 64
+ciMethod java/util/ArrayList$Itr next ()Ljava/lang/Object; 2161 1 6248 0 224
+ciMethod java/util/ArrayList$Itr checkForComodification ()V 2625 1 6248 0 0
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;Ljava/util/ArrayList$1;)V 2401 1 1473890 0 96
+ciMethodData java/util/ArrayList$Itr next ()Ljava/lang/Object; 2 6248 orig 264 104 225 199 80 0 0 0 0 32 95 190 22 0 0 0 0 232 1 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 209 186 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 20 0x10005 0x40 0x1cbbb240 0x171a 0x0 0x0 0xe0002 0x175f 0x110007 0x175f 0x30 0x0 0x180002 0x0 0x270007 0x1760 0x30 0x0 0x2e0002 0x0 oops 1

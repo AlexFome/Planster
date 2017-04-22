@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Planster</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <string name="google_places_key" translatable="false">INSERT YOUR GOOGLE PLACES API KEY HERE</string>
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:id="@+id/settings_activity"
+    android:gravity="center"
+    tools:context="com.fome.planster.TaskCreationActivity">
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:background="@color/light_grey_1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/new_task_sign"
+            android:text="@string/Settings"
+            android:paddingLeft="@dimen/horizontal_padding"
+            android:paddingRight="@dimen/horizontal_padding"
+            android:paddingTop="@dimen/vertical_padding"
+            android:paddingBottom="@dimen/vertical_padding"
+            android:textSize="@dimen/very_big_text_size"
+            android:textColor="@color/light_grey_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/horizontal_padding"
+            android:paddingRight="@dimen/horizontal_padding"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:paddingTop="@dimen/vertical_padding"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/notification_with_sound"
+                    android:textColor="@color/light_grey_2"
+                    android:textSize="@dimen/middle_text_size"
+                    android:layout_marginRight="@dimen/horizontal_padding"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/notification_with_sound"
+                        android:checked="true"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="right"
+                        android:theme="@style/CheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="@dimen/vertical_padding"
+                android:background="@drawable/light_underline"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:paddingTop="@dimen/vertical_padding"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/report_a_bug_or_a_suggestion"
+                    android:textColor="@color/light_grey_2"
+                    android:layout_marginRight="@dimen/horizontal_padding"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+                <LinearLayout
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/send_email_button"
+                        android:textSize="@dimen/big_text_size"
+                        android:textColor="@color/red"
+                        android:text="@string/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="@dimen/vertical_padding"
+                android:background="@drawable/light_underline"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:paddingTop="@dimen/vertical_padding"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/open_privacy_policy_button"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/light_grey_2"
+                    android:layout_marginRight="@dimen/horizontal_padding"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

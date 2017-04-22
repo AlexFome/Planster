@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:id="@+id/activity_list"
+    tools:context="com.fome.planster.ListActivity">
+
+    <RelativeLayout
+        android:background="@color/light_grey_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/list_sign"
+            android:text="@string/List"
+            android:paddingLeft="@dimen/horizontal_padding"
+            android:paddingRight="@dimen/horizontal_padding"
+            android:paddingTop="@dimen/vertical_padding"
+            android:paddingBottom="@dimen/vertical_padding"
+            android:textSize="@dimen/very_big_text_size"
+            android:textColor="@color/light_grey_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="@drawable/empty_circle"
+            android:id="@+id/finish_list_customization_button"
+            android:text="@string/okay"
+            android:textColor="@color/red"
+            android:textSize="@dimen/big_text_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/horizontal_padding"
+            android:layout_height="@dimen/contact_thumbnail_size"
+            android:layout_width="@dimen/contact_thumbnail_size"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:paddingBottom="@dimen/vertical_padding"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:id="@+id/listview"
+        android:divider="@drawable/light_underline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

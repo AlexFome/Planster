@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <TextView
+        android:id="@+id/list_item_num"
+        android:text="1."
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:textColor="@color/light_grey_2"
+        android:textSize="@dimen/middle_text_size"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height" />
+
+    <EditText
+        android:id="@+id/list_item_input"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:hint="@string/write_text_here"
+        android:textColorHint="@color/light_grey_2"
+        android:textColor="@color/light_grey_3"
+        android:textSize="@dimen/middle_text_size"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:background="@null"
+        android:focusable="true"
+        android:layout_weight="8"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:id="@+id/remove_button"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="@dimen/middle_text_size"
+            android:textColor="@color/red"
+            android:text="@string/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
