@@ -957,7 +957,9 @@ public class TaskCreationActivity extends AppCompatActivity {
             Date startDate = task.getStartDate();
             body = body + " " + DateManager.getDay (startDate) + "/" + DateManager.getMonthNum(startDate) + "/" + DateManager.getYear(startDate);
             body = body + " " + (DateManager.getHours(startDate) < 10 ? "0" + DateManager.getHours(task.getStartDate()): DateManager.getHours(task.getStartDate()) + "") + ":" + (DateManager.getMinutes(startDate) < 10 ? "0" + DateManager.getMinutes(task.getStartDate()): DateManager.getMinutes(task.getStartDate()) + "");
-            body = body + " " + task.getPlace().getName();
+            if (task.getPlace () != null) {
+                body = body + " " + task.getPlace().getName();
+            }
 
             InternetConnection.sendEmail(
                     this,
@@ -995,7 +997,9 @@ public class TaskCreationActivity extends AppCompatActivity {
         Date startDate = task.getStartDate();
         body = body + " " + DateManager.getDay (startDate) + "/" + DateManager.getMonthNum(startDate) + "/" + DateManager.getYear(startDate);
         body = body + " " + (DateManager.getHours(startDate) < 10 ? "0" + DateManager.getHours(task.getStartDate()): DateManager.getHours(task.getStartDate()) + "") + ":" + (DateManager.getMinutes(startDate) < 10 ? "0" + DateManager.getMinutes(task.getStartDate()): DateManager.getMinutes(task.getStartDate()) + "");
-        body = body + " " + task.getPlace().getName();
+        if (task.getPlace () != null) {
+            body = body + " " + task.getPlace().getName();
+        }
 
         InternetConnection.shareText(this, getResources().getString(R.string.Task), body);
     }
