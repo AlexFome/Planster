@@ -148,7 +148,7 @@ public class DayActivity extends AppCompatActivity {
 
         TextView textSign = (TextView) findViewById(R.id.tasks_sign);
         if (textSign.length() > 5) {
-            textSign.setTextSize((getResources().getDimension((R.dimen.capital_text_size))/ getResources().getDisplayMetrics().density) * 0.75f);
+            textSign.setTextSize((getResources().getDimension((R.dimen.capital_text_size))/ getResources().getDisplayMetrics().density) * 0.7f);
         } else {
             textSign.setTextSize(getResources().getDimension(R.dimen.capital_text_size) / getResources().getDisplayMetrics().density);
         }
