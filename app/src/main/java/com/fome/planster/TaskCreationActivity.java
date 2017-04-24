@@ -1013,4 +1013,15 @@ public class TaskCreationActivity extends AppCompatActivity {
         return imageUri;
     }
 
+    @Override
+    public void onBackPressed() {
+        if (datePickerOpened) {
+            closeDatePicker();
+        } else if (contactsPickerOpened) {
+            closeContactsPicker();
+        } else {
+            finish ();
+        }
+    }
+    
 }
