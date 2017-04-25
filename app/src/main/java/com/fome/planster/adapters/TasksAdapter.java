@@ -241,7 +241,13 @@ public class TasksAdapter extends BaseAdapter {
         }
         ((TextView) viewHolder.notesBar.getChildAt(0)).setText(notes);
 
-        int selectedContactsNum = task.getContacts().getSelectedContacts().size();
+        int selectedContactsNum;
+        if (task.getContacts() == null) {
+            selectedContactsNum = 0;
+        } else {
+            selectedContactsNum = task.getContacts().getSelectedContacts().size();
+        }
+        
         for (int i = 0; i < 4; i++) {
             if (i < 3) {
                 final ImageView thumbnail = (ImageView) contacts.getChildAt(i);
